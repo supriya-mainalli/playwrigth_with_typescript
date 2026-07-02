@@ -11,3 +11,13 @@ let age1 = 28
 let name1 = "supriya2"
 
 console.log(age1 + name1) //28supriya
+
+//Datatypes
+/*
+1. number
+2. string 
+3. boolean
+4. any [let n:any = 10]
+5. void
+6. Union
+*/
