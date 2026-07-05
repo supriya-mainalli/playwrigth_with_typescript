@@ -1,0 +1,23 @@
+{
+  "name": "playwrigth_with_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supriya-mainalli/playwrigth_with_typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/supriya-mainalli/playwrigth_with_typescript/issues"
+  },
+  "homepage": "https://github.com/supriya-mainalli/playwrigth_with_typescript#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0"
+  }
+}
