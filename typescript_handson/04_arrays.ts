@@ -42,8 +42,8 @@ let capsResult = (names: Array<string>): Array<string> => {
     return names;
 }
 
-let names1: Array<string> = ['supriya', 'mainalli', 'manju']
-console.log("the caps names", capsResult(names1))
+let names10: Array<string> = ['supriya', 'mainalli', 'manju']
+console.log("the caps names", capsResult(names10))
 
 
 // tuples -> when the array size is fixed then tuple is used

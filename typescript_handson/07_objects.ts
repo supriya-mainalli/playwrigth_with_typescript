@@ -62,3 +62,28 @@ let student = {
 }
 
 console.log(`the student details is ${student.getStudentDetails()}`);
+
+
+// using the class
+
+class Person {
+    id: number;
+    fname: string;
+    lname: string;
+
+    constructor(id: number, fname: string, lname: string) {
+        this.id = id;
+        this.fname = fname;
+        this.lname = lname;
+    }
+
+    getFullName(): string {
+        return `The full name is ${this.fname} ${this.lname} `
+    }
+}
+
+const per1 = new Person(11, "supriya", "m")
+const per2 = new Person(22, "manju", "m")
+
+console.log('the full name of Person1 is', per1);
+console.log('the full name of Person1 is', per2);
