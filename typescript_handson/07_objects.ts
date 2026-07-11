@@ -33,7 +33,7 @@ type employee2 = {
     name: string,
     id: number,
     job: string,
-    getEmpDetails: () => string
+    getEmployeeDetails(): string
 }
 
 //declarations
@@ -41,14 +41,14 @@ let emp: employee2 = {
     name: "supriya",
     id: 10,
     job: "engineer",
-    getEmpDetails: function () {
+    getEmployeeDetails: function () {
         return `${this.name} and ${this.id}`
     }
 }
 
-console.log(emp.getEmpDetails());
+console.log(`using the type way --> ${emp.getEmployeeDetails()}`);
 
-console.log(`using the bracket type ${emp['getEmpDetails']()}`);
+console.log(`using the bracket type ${emp['getEmployeeDetails']()}`);
 
 //best practice
 
