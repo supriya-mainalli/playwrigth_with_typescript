@@ -9,8 +9,8 @@ test('Input box testcases', async ({ page }) => {
     await emailAddress.fill('test123@gmail.com');
     let expectedValue: string = await emailAddress.inputValue();
     console.log('The enetered value is', expectedValue)
-    expect(emailAddress).toBeVisible();
-    expect(emailAddress).toBeEnabled();
+    await expect(emailAddress).toBeVisible();
+    await expect(emailAddress).toBeEnabled();
     await page.waitForTimeout(5000);
 });
 
@@ -49,5 +49,4 @@ test.only("Validate the checkboxes", async ({ page }) => {
     }
 
     await page.waitForTimeout(3000)
-
 });
