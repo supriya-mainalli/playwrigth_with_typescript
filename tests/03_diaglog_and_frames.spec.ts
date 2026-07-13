@@ -39,5 +39,4 @@ test.only('Validate prompt dialog', async ({ page }) => {
         dialog.accept('Supriya');
     });
     await page.locator('#promptBtn').click();
-
 });
